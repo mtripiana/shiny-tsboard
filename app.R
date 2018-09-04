@@ -200,7 +200,7 @@ ui <- dashboardPage(
   dashboardBody(
     tabItems(
       tabItem(tabName = "summary",
-              fluidRow( box(stauts='primary', DTOutput('tbl'), width=8),
+              fluidRow( box(status='primary', DTOutput('tbl'), width=8),
               tags$hr())
       ),
       tabItem(tabName = "dist",

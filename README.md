@@ -17,7 +17,7 @@ git clone https://github.com/mtripiana/shiny-tsboard.git
 cd shiny-tsboard
 docker build -t shiny-app-tsboard .
 ```
-Note: if your are running on Windows (via WLS) you might need to configure the docker port (+ expose the daemon, as discussed [here](https://medium.com/@sebagomez/installing-the-docker-client-on-ubuntus-windows-subsystem-for-linux-612b392a44c4) )
+Note: if you are running on Windows (via WLS) you might need to configure the docker port (+ expose the daemon, as discussed [here](https://medium.com/@sebagomez/installing-the-docker-client-on-ubuntus-windows-subsystem-for-linux-612b392a44c4) )
 ```bash
 EXPORT DOCKER_HOST=localhost:2375
 ```
